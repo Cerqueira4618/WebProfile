@@ -87,11 +87,4 @@ Para simular a performance do site final de produção no teu computador local:
 npm run preview
 ```
 
----
 
-## 🌐 Como Fazer Deploy para Produção
-
-Como o Vite compila o portefólio num bundle estático puramente HTML, CSS e JS dentro da pasta `/dist`, podes alojá-lo gratuitamente em plataformas de deploy instantâneo:
-
-* **Vercel / Netlify**: Basta conectares o teu repositório do GitHub e definir o diretório de build como `dist` e o comando de instalação como `npm run build`.
-* **GitHub Pages**: Podes configurar uma GitHub Action simples para fazer o deploy automático da pasta `dist/` sempre que fizeres um push para o branch `main`.
