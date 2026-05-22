@@ -36,7 +36,6 @@ const translations = {
         filter_all: "Todos",
         filter_academic: "Académicos (UMinho)",
         filter_personal: "Pessoais",
-        projects_edit_note: "<strong>Dica para o programador:</strong> Podes adicionar ou atualizar estes projetos facilmente editando a lista de dados no ficheiro <code>src/App.vue</code>!",
         
         contact_title: "Contacto",
         contact_subtitle: "Vamos trabalhar juntos?",
@@ -78,7 +77,6 @@ const translations = {
         filter_all: "All",
         filter_academic: "Academic (UMinho)",
         filter_personal: "Personal",
-        projects_edit_note: "<strong>Developer Tip:</strong> You can easily add or update these projects by editing the data list inside the <code>src/App.vue</code> file!",
         
         contact_title: "Contact",
         contact_subtitle: "Let's work together?",
@@ -684,12 +682,6 @@ const executeCommand = (cmdText) => {
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Mensagem de ajuda -->
-            <div class="projects-help-note glass">
-                <i class="fa-solid fa-circle-info text-gradient-icon"></i>
-                <p v-html="t('projects_edit_note')"></p>
             </div>
         </section>
 

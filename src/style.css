@@ -966,18 +966,6 @@
         border-radius: 6px;
     }
 
-    .projects-help-note {
-        padding: 1.25rem 1.75rem;
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        font-size: 0.9rem;
-        color: var(--color-text-muted);
-        max-width: fit-content;
-        margin-inline: auto;
-    }
-
     .text-gradient-icon {
         background: var(--gradient-accent);
         -webkit-background-clip: text;
