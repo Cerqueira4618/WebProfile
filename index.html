@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerqueira | Portefólio de Engenharia Informática</title>
+    <meta name="description" content="Portefólio e currículo de estudante de Licenciatura em Engenharia Informática (LEI) na Universidade do Minho. Projetos académicos, competências e percurso.">
+    
+    <!-- Evitar FOUC (Flash of Unthemed Content) de acordo com o guia de Dark Mode -->
+    <meta name="color-scheme" content="light dark">
+    <script>
+    {
+        const colorScheme = localStorage.getItem("color-scheme");
+        if (colorScheme) {
+            document.querySelector('meta[name="color-scheme"]').content = colorScheme;
+            document.documentElement.classList.add(colorScheme);
+        } else {
+            document.documentElement.classList.add('dark'); // Padrão escuro moderno
+        }
+    }
+    </script>
+    
+    <!-- Google Fonts: Outfit & Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones via FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark">
+    <!-- Vue Mount Root -->
+    <div id="app"></div>
+
+    <!-- Lógica Principal via Vite Entrypoint -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
